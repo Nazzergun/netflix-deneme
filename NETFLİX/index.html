@@ -6,6 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Netflix Clone</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".faq-list-item").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+
+        $(".faq-list-item1").click(function(){
+          $("#panel1").slideToggle("slow");
+        });
+        
+        
+        $(".faq-list-item2").click(function(){
+          $("#panel2").slideToggle("slow");
+        });
+
+        $(".faq-list-item3").click(function(){
+          $("#panel3").slideToggle("slow");
+        });
+
+        $(".faq-list-item4").click(function(){
+          $("#panel4").slideToggle("slow");
+        });
+        
+        $(".faq-list-item5").click(function(){
+          $("#panel5").slideToggle("slow");
+        });
+
+        $(".faq-list-item6").click(function(){
+          $("#panel6").slideToggle("slow");
+        });
+      });
+   
+
+    </script>
   </head>
   <body>
     <!-- HEADER -->
@@ -29,7 +65,7 @@
       <div class="input_id">
         <input type="email" class="input-email" placeholder="E-posta adresi" />
         <a href="#" class="butn butn-getStarted"
-          >Başlamak <i class="fas fa-chevron-right butn-icon"></i
+          >Başlamak > <i class="fas fa-chevron-right butn-icon"></i
         ></a>
       </div>
     </header>
@@ -105,16 +141,15 @@
         </div>
       </div>
 
+
+
       <div class="full-story-card faq-card">
         <h1 class="faq-title">Sıkça Sorulan Sorular</h1>
         <ul class="faq-list">
           <li class="faq-list-item">
-            <button class="faq-question">
-              Netflix Nedir?
-              <i class="far fa-plus"></i>
-            </button>
-            <div class="faq-answer">
-              <p>
+            <div class="faq-question">Netflix Nedir?</div>
+            <div id="panel">
+              <p class="faq-answer">
                 Netflix; internet bağlantılı binlerce cihazda ödüllü diziler,
                 filmler, animeler, belgeseller ve daha fazlasını içeren geniş
                 bir arşiv sunan bir streaming hizmetidir.
@@ -125,29 +160,23 @@
                 zaman keşfedilecek yeni bir şeyler var, üstelik her hafta yeni
                 diziler ve filmler ekleniyor!
               </p>
-            </div>
           </li>
-          <li class="faq-list-item">
-            <button class="faq-question">
-              Netflix'in maliyeti Nedir?
-              <i class="far fa-plus"></i>
-            </button>
-            <div class="faq-answer">
-              <p>
+        
+          <li class="faq-list-item1">
+            <div class="faq-question">Netflix'in maliyeti Nedir?</div>
+            <div id="panel1">
+              <p class="faq-answer">
                 Netflix'i akıllı telefonunuz, tabletiniz, Akıllı TV'niz, dizüstü
                 bilgisayarınız veya yayın cihazınızda sabit bir aylık ücretle
                 izleyin. Aylık plan ücretleri 63,99 TL ile 130,99 TL arasında
                 değişmektedir. Ekstra maliyet yok, sözleşme yok.
               </p>
-            </div>
           </li>
-          <li class="faq-list-item">
-            <button class="faq-question">
-              Nerede izleyebilirim?
-              <i class="far fa-plus"></i>
-            </button>
-            <div class="faq-answer">
-              <p>
+
+          <li class="faq-list-item3">
+            <div class="faq-question">Nerede izleyebilirim?</div>
+            <div id="panel3">
+              <p class="faq-answer">
                 İstediğiniz yerde, istediğiniz zaman izleyin. Bilgisayarınızda
                 netflix.com adresinden veya akıllı TV'ler, akıllı telefonlar,
                 tabletler, medya oynatıcılar ve oyun konsolları dahil Netflix
@@ -160,43 +189,34 @@
                 olmadan izlemek için indirilenleri kullanın. Netflix'i her yere
                 beraberinizde götürün.
               </p>
-            </div>
           </li>
-          <li class="faq-list-item">
-            <button class="faq-question">
-              Nasıl iptal ederim?
-              <i class="far fa-plus"></i>
-            </button>
-            <div class="faq-answer">
-              <p>
+
+           <li class="faq-list-item4">
+            <div class="faq-question">Nasıl iptal ederim?</div>
+            <div id="panel4">
+              <p class="faq-answer">
                 Netflix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt
                 yoktur. Hesabınızı çevrimiçi olarak iki tıklamayla kolayca iptal
                 edebilirsiniz. İptal ücreti yoktur - hesabınızı istediğiniz
                 zaman başlatın veya durdurun.
               </p>
-            </div>
           </li>
-          <li class="faq-list-item">
-            <button class="faq-question">
-              Netflix'te ne izleyebilirim?
-              <i class="far fa-plus"></i>
-            </button>
-            <div class="faq-answer">
-              <p>
+
+          <li class="faq-list-item5">
+            <div class="faq-question">Netflix'te ne izleyebilirim?</div>
+            <div id="panel5">
+              <p class="faq-answer">
                 Netflix, uzun metrajlı filmler, belgeseller, diziler ve
                 programlar, anime, ödüllü Netflix orijinal içerikleri ve daha
                 fazlasından oluşan kapsamlı bir kütüphaneye sahiptir.
                 İstediğiniz her zaman, istediğiniz kadar çok şey izleyin.
               </p>
-            </div>
           </li>
-          <li class="faq-list-item">
-            <button class="faq-question">
-              Netflix çocuklar için uygun mudur?
-              <i class="far fa-plus"></i>
-            </button>
-            <div class="faq-answer">
-              <p>
+
+          <li class="faq-list-item6">
+            <div class="faq-question">Netflix çocuklar için uygun mudur?</div>
+            <div id="panel6">
+              <p class="faq-answer">
                 Üyeliğinize dâhil olan Netflix Çocuk deneyimi, çocukların ailece
                 izlenebilecek dizi ve filmleri kendilerine özel bir alanda
                 izlemelerini sağlarken kontrolü ebeveynlere verir.
@@ -207,9 +227,10 @@
                 düzeylerini kısıtlayabilir ve onların görmesini istemediğiniz
                 belirli içerikleri engelleyebilirsiniz.
               </p>
-            </div>
           </li>
-        </ul>
+      </ul>
+       
+      </div>
       </div>
     </div>
 
@@ -218,14 +239,14 @@
         İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için
         e‑posta adresinizi girin.
       </h3>
-      <div class="input_id2">
+      <div class="input_id">
         <input
           type="email"
           class="input input-email"
           placeholder="E-posta adresi"
         />
         <a href="#" class="butn butn-getStarted"
-          >Başlayın <i class="fas fa-chevron-right butn-icon"></i
+          >Başlayın > <i class="fas fa-chevron-right butn-icon"></i
         ></a>
       </div>
     </div>
@@ -260,6 +281,7 @@
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+  
   </body>
 </html>

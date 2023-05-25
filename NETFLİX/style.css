@@ -67,6 +67,9 @@ img {
   position: relative;
   height: 32px;
   width: 108px;
+  display: flex;
+  align-self: center;
+
 }
 .showcase-top a {
   background-color: var(--primary-color);
@@ -110,11 +113,14 @@ img {
 }
 .input_id {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 70px;
   padding: 0 20px;
   z-index: 2;
+ 
 }
 .input-email {
   max-width: 450px;
@@ -227,7 +233,7 @@ img {
 .faq-card {
   margin: auto;
   padding: 70px 45px;
-  align-items: center;
+ /* align-items: center;*/
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -249,12 +255,17 @@ img {
   text-align: left;
   align-items: flex-start;
 }
-.faq-list-item {
+.faq-list-item ,.faq-list-item1,.faq-list-item2 ,.faq-list-item3,.faq-list-item4,.faq-list-item5,.faq-list-item6 {
   text-align: left;
   background: #303030;
   font-size: 1.25rem;
   border-bottom: 10px solid black;
 }
+#panel,#panel1,#panel2,#panel3,#panel4,#panel5,#panel6 {
+  padding: 50px;
+  display: none;
+}
+
 .faq-question {
   width: 100%;
   display: flex;
@@ -269,11 +280,10 @@ img {
 }
 .faq-answer {
   width: 100%;
-  display: flex;
+  display: inline-block;
   text-align: left;
   padding: 0 20px;
   max-height: 0;
-  overflow: hidden;
   transition: max height 0.25s ease-in-out;
 }
 .faq-answer p {
@@ -289,15 +299,7 @@ img {
 .lower-h3 h3 {
   font-weight: 200;
 }
-.input_id2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  padding: 0 20px;
-  padding-bottom: 50px;
-  z-index: 2;
-  border-bottom: 8px solid rgb(27, 27, 27);
-}
+
 .footer {
   max-width: 1000px;
   margin: auto;
