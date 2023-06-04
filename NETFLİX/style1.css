@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: black;
+  height: 60;
+  color: white;
+}
+.sidebar {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 50px;
+}
