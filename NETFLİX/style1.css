@@ -84,4 +84,24 @@ body {
   color: white;
   height: 100%;
   width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  row-gap: 40px;
+  position: fixed;
+  top: 0;
+}
+.sidebar i {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.content-weapper {
+  margin-right: 20px;
+}
+
+.featured-content {
+  background: url(anasayfa.fotograf/diziler/harry-potter-it-all-ends-18u1rkvpzotfmi49.jpg);
 }
