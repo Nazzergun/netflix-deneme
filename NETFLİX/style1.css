@@ -5,6 +5,12 @@
 
 body {
   font-family: "Electrolize", sans-serif;
+  height: 200vh;
+}
+
+.container {
+  background-color: black;
+  color: white;
 }
 
 .navbar {
@@ -121,7 +127,7 @@ body {
   column-gap: 20px;
 }
 
-..featured-buttons button {
+.featured-buttons button {
   padding: 10px 25px;
   border-radius: 2px;
   border: none;
@@ -130,4 +136,22 @@ body {
   display: flex;
   column-gap: 10px;
   font-size: 16px;
+  font-weight: bold;
+}
+
+.featured-buttons .info-button {
+  background-color: rgb(145, 142, 142, 0.5);
+  color: white;
+}
+
+.movie-list-filter {
+  margin: 20px 0 20px 50px;
+  padding: 20px;
+}
+
+.movie-list-filter select {
+  background-color: black;
+  color: white;
+  padding: 8px 0;
+  width: 125px;
 }
