@@ -35,6 +35,7 @@ body {
   display: flex;
   list-style: none;
   column-gap: 30px;
+  padding: 0;
 }
 .menu-list-item {
   cursor: pointer;
@@ -164,6 +165,29 @@ body {
   list-style: none;
   padding: 0;
 }
+
+.movie-item {
+  position: relative;
+}
 .movie-item-img {
-  width: 150px;
+  width: 130px;
+}
+.movie-item-title {
+  background-color: rgb(40, 40, 40, 0.4);
+  padding: 0 6px;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+}
+
+.movie-item-buttons {
+  background-color: rgb(40, 40, 40, 0.4);
+  padding: 0 30px;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 9%;
+  display: flex;
+  column-gap: 20px;
 }
