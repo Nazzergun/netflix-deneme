@@ -116,11 +116,12 @@ body {
 }
 
 .featured-desc {
-  width: 500px;
+  width: 600px;
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
   padding: 10px 0px;
   margin: 10px 0px;
+  color: black;
 }
 
 .featured-buttons {
