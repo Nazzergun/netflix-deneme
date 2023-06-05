@@ -5,7 +5,6 @@
 
 body {
   font-family: "Electrolize", sans-serif;
-  height: 200vh;
 }
 
 .container {
@@ -19,6 +18,7 @@ body {
   color: white;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .logo {
   font-size: 30px;
