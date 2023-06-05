@@ -84,6 +84,7 @@ body {
   cursor: pointer;
   position: absolute;
   right: 1px;
+  transition: 0.5s ease all;
 }
 .sidebar {
   background-color: black;
