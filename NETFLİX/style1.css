@@ -4,13 +4,12 @@
 }
 
 body {
-  height: 100vh;
   font-family: "Electrolize", sans-serif;
 }
 
 .navbar {
   background-color: black;
-  height: 60;
+  height: 50px;
   color: white;
   position: sticky;
   top: 0;
@@ -99,9 +98,36 @@ body {
 }
 
 .content-weapper {
-  margin-right: 20px;
+  margin-left: 100px;
 }
 
 .featured-content {
-  background: url(anasayfa.fotograf/diziler/harry-potter-it-all-ends-18u1rkvpzotfmi49.jpg);
+  background: url(anasayfa.fotograf/diziler/son1.jpg);
+  padding: 50px;
+  height: calc(100vh - 150px);
+  background-size: 100% 100%;
+}
+
+.featured-desc {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.featured-buttons {
+  display: flex;
+  column-gap: 20px;
+}
+
+..featured-buttons button {
+  padding: 10px 25px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  column-gap: 10px;
+  font-size: 16px;
 }
