@@ -176,6 +176,7 @@ body {
 }
 .movie-list-wrapper {
   overflow: hidden;
+  position: relative;
 }
 
 .movie-item:hover .movie-item-title,
@@ -227,4 +228,15 @@ body {
 
 .movie-item-buttons i:hover {
   opacity: 1;
+}
+
+.arrow {
+  width: 100px;
+  display: flex;
+  font-size: 110px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  top: 100px;
+  opacity: 0.5;
 }
