@@ -165,13 +165,23 @@ body {
   list-style: none;
   padding: 0;
   height: 300px;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
 }
 
 .movie-item {
   position: relative;
 }
+.movie-item:hover .movie-item-title,
+.movie-item:hover .movie-item-buttons {
+  opacity: 1;
+}
+
 .movie-item-img {
   width: 130px;
+  height: 200px;
+  object-fit: cover;
 }
 .movie-item-title {
   background-color: rgb(40, 40, 40, 0.4);
@@ -180,6 +190,7 @@ body {
   font-weight: bold;
   position: absolute;
   top: 10%;
+  opacity: 0;
 }
 
 .movie-item-buttons {
@@ -188,7 +199,18 @@ body {
   font-size: 11px;
   font-weight: bold;
   position: absolute;
-  bottom: 9%;
+  bottom: 6%;
   display: flex;
-  column-gap: 10px;
+  column-gap: 13px;
+  opacity: 0;
+}
+
+.movie-item-buttons i {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s all ease;
+}
+
+.movie-item-buttons i:hover {
+  opacity: 1;
 }
