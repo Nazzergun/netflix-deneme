@@ -178,10 +178,17 @@ body {
   opacity: 1;
 }
 
+.movie-item:hover .movie-item-img {
+  transform: scale(1.2);
+  margin: 0 30px;
+  opacity: 0.5;
+}
+
 .movie-item-img {
   width: 130px;
   height: 200px;
   object-fit: cover;
+  transition: 1s all ease-in-out;
 }
 .movie-item-title {
   background-color: rgb(40, 40, 40, 0.4);
@@ -191,18 +198,20 @@ body {
   position: absolute;
   top: 10%;
   opacity: 0;
+  transition: 1s all ease-in-out;
 }
 
 .movie-item-buttons {
   background-color: rgb(40, 40, 40, 0.4);
-  padding: 0 30px;
+  padding: 0 20px;
   font-size: 11px;
   font-weight: bold;
   position: absolute;
   bottom: 6%;
   display: flex;
-  column-gap: 13px;
+  column-gap: 11px;
   opacity: 0;
+  transition: 1s all ease-in-out;
 }
 
 .movie-item-buttons i {
