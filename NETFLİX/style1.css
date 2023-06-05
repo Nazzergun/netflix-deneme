@@ -248,3 +248,36 @@ body {
 .arrow :hover {
   opacity: 1;
 }
+
+.container.active {
+  background-color: white;
+}
+.navbar.active {
+  background-color: white;
+  color: black;
+}
+
+.sidebar.active {
+  background-color: white;
+  color: black;
+}
+
+.sidebar i.active {
+  color: black;
+}
+
+.movie-list-title.active {
+  color: black;
+}
+
+.toggle.active {
+  background-color: black;
+}
+.toggle-ball.active {
+  background-color: white;
+  transform: translateX(-20px);
+}
+.movie-list-filter select.active {
+  background-color: white;
+  color: black;
+}
