@@ -169,6 +169,8 @@ body {
   display: flex;
   align-items: center;
   column-gap: 30px;
+  transform: translateX(0);
+  transition: 1s all ease ease-in-out;
 }
 
 .movie-item {
