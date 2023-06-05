@@ -173,6 +173,10 @@ body {
 .movie-item {
   position: relative;
 }
+.movie-list-wrapper {
+  overflow: hidden;
+}
+
 .movie-item:hover .movie-item-title,
 .movie-item:hover .movie-item-buttons {
   opacity: 1;
