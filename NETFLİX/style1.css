@@ -155,3 +155,15 @@ body {
   padding: 8px 0;
   width: 125px;
 }
+
+.movie-list-container {
+  margin-left: 70px;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+.movie-item-img {
+  width: 150px;
+}
