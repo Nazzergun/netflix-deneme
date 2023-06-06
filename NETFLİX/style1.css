@@ -127,7 +127,8 @@ body {
 
 .featured-buttons {
   display: flex;
-  column-gap: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .featured-buttons button {
@@ -281,4 +282,22 @@ body {
 .movie-list-filter select.active {
   background-color: white;
   color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-container {
+    display: none;
+  }
+}
+.featured-content {
+  height: 50vh;
+}
+
+.featured-desc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  max-width: 800px;
+  padding: 0;
 }
