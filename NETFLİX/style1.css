@@ -110,8 +110,8 @@ body {
 }
 
 .featured-content {
-  background: url(anasayfa.fotograf/diziler/son1.jpg);
-  padding: 50px;
+  background: url(anasayfa.fotograf/filmler/godzillar.jpg);
+  padding: 130px;
   height: calc(100vh - 150px);
   background-size: 100% 100%;
 }
@@ -296,8 +296,8 @@ body {
 .featured-desc {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
-  max-width: 800px;
+  max-width: 600px;
   padding: 0;
 }
