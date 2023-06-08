@@ -9,46 +9,45 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
-    <div class="navbar">
-      <div class="navbar-wrapper">
-        <div class="logo-wrapper">
-          <h1 class="logo">NETFLİX</h1>
-        </div>
-        <div class="menu-container">
-          <ul class="menu-list">
-            <li class="menu-list-item active">
-              <a href="">Anasayfa</a>
-            </li>
-            <li class="menu-list-item">
-              <a href="">Filmler</a>
-            </li>
-            <li class="menu-list-item">
-              <a href="">Diziler</a>
-            </li>
-            <li class="menu-list-item">
-              <a href="">Listem</a>
-            </li>
-            <li class="menu-list-item">
-              <a href="">Popüler</a>
-            </li>
-          </ul>
-        </div>
-        <div class="profile-container">
-          <img class="profile-picture" src="anasayfa.fotograf/ben.jpg" alt="" />
-          <div class="profile-text-container">
-            <span class="profile-text">Hesabım</span>
-            <i class="bi bi-caret-down-fill"></i>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand logo">NETFLIX</a> 
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" href="#">Diziler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" href="#">Filmler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" href="#">Yeni ve Popüler</a>
+                </li>
+              </ul>
+            </div>
+            <div class="profile-container">
+              <img class="profile-picture" src="anasayfa.fotograf/ben.jpg" alt="" />
+              <div class="profile-text-container">
+                <span class="profile-text">Hesabım</span>
+                <i class="bi bi-caret-down-fill"></i>
+              </div>
+              <div class="toggle">
+                <i class="bi bi-moon-fill toggle-icon"></i>
+                <i class="bi bi-brightness-high-fill toggle-icon"></i>
+                <div class="toggle-ball"></div>
+              </div>
+            </div>
           </div>
-          <div class="toggle">
-            <i class="bi bi-moon-fill toggle-icon"></i>
-            <i class="bi bi-brightness-high-fill toggle-icon"></i>
-            <div class="toggle-ball"></div>
-          </div>
-        </div>
-      </div>
+        </nav>
+       
     </div>
     <div class="sidebar">
       <i class="bi bi-search"></i>
@@ -60,28 +59,30 @@
       <i class="bi bi-gear-fill"></i>
     </div>
 
-    <div class="container">
+    <div class="container-fluid z-0">
       <div class="content-wrapper">
         <div class="featured-content">
-          <img class="featured-title" />
-          <p class="featured-desc">
-            Godzilla vs Kong, canavarların düyada dolaştığı, insanlığın
-            gelecekleri için mücadele ettiği bir zamanda, doğanın en güçlü
-            ikilisi olan Godzilla ve Kong, daha önce hiç görülmemiş bir savaşta
-            çarpışmasını konu ediyor. Godzilla saldırılarına başlayıp, önüne
-            çıkar her şeyi yerle bir ettiğinde, hükümet onu durdurmak için başka
-            bir efsaneye yönelir; King Kong. İki canavar üstünlük için karşı
-            karşıya geldiğinde, insanlık büyük bir tehlikenin ortasında kalır.
-            Bu sırada bir komplo, hem iyi hem de kötü tüm yaratıkları sonsuza
-            dek yeryüzünden silmekle tehdit eder.
-          </p>
-          <div class="featured-buttons">
-            <button class="play-button">
-              <i class="bi bi-play-circle"></i> Oynat
-            </button>
-            <button class="info-button">
-              <i class="bi bi-info-circle"></i> Daha Fazla Bilgi
-            </button>
+          <img class="featured-title" src="img1/flims/drama-1.jpg" />
+          <div class="featured-body  z-0">
+            <p class="featured-desc">
+              Godzilla vs Kong, canavarların düyada dolaştığı, insanlığın
+              gelecekleri için mücadele ettiği bir zamanda, doğanın en güçlü
+              ikilisi olan Godzilla ve Kong, daha önce hiç görülmemiş bir savaşta
+              çarpışmasını konu ediyor. Godzilla saldırılarına başlayıp, önüne
+              çıkar her şeyi yerle bir ettiğinde, hükümet onu durdurmak için başka
+              bir efsaneye yönelir; King Kong. İki canavar üstünlük için karşı
+              karşıya geldiğinde, insanlık büyük bir tehlikenin ortasında kalır.
+              Bu sırada bir komplo, hem iyi hem de kötü tüm yaratıkları sonsuza
+              dek yeryüzünden silmekle tehdit eder.
+            </p>
+            <div class="featured-buttons">
+              <button class="play-button">
+                <i class="bi bi-play-circle"></i> Oynat
+              </button>
+              <button class="info-button">
+                <i class="bi bi-info-circle"></i> Daha Fazla Bilgi
+              </button>
+            </div>
           </div>
         </div>
         <div class="movie-list-filter">

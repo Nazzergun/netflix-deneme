@@ -30,6 +30,8 @@ a {
 img {
   width: 100%;
   border: 0;
+  object-fit: cover;
+  object-position: center;
 }
 .showcase {
   background: url("img/Netflix-4.jpg") no-repeat center center/cover;

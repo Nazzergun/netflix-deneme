@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2? family= Electrolize & display=swap");
 * {
   margin: 0;
+  overflow-inline: hidden;
 }
 
 body {
   font-family: "Electrolize", sans-serif;
-}
-
-.container {
   background-color: black;
+}
+h1,h2,h3,h4,h5,h6{
+  color: white;
+}
+.container {
   color: white;
 }
 
@@ -108,14 +111,27 @@ body {
 .content-weapper {
   margin-left: 100px;
 }
+.featured-body{
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 30px 0 0 80px;
 
-.featured-content {
-  background: url(anasayfa.fotograf/filmler/godzillar.jpg);
-  padding: 130px;
-  height: calc(100vh - 150px);
-  background-size: 100% 100%;
 }
-
+.featured-content {
+ width: 100vh;
+ height: 100vh;
+ display: inline;
+}
+.featured-title{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 .featured-desc {
   width: 600px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -172,7 +188,7 @@ body {
   align-items: center;
   column-gap: 30px;
   transform: translateX(0);
-  transition: 1s all ease ease-in-out;
+  transition: 0.2s all ease ease-in-out;
 }
 
 .movie-item {
@@ -198,10 +214,11 @@ body {
   width: 130px;
   height: 200px;
   object-fit: cover;
-  transition: 1s all ease-in-out;
+  transition: 0.2s all ease-in-out;
 }
 .movie-item-title {
-  background-color: rgb(40, 40, 40, 0.4);
+  /* background-color: rgb(40, 40, 40, 0.4); */
+  background-color: white;
   padding: 0 6px;
   font-size: 12px;
   font-weight: bold;
@@ -212,7 +229,8 @@ body {
 }
 
 .movie-item-buttons {
-  background-color: rgb(40, 40, 40, 0.4);
+  /* background-color: rgb(40, 40, 40, 0.4); */
+  background-color: white;
   padding: 0 20px;
   font-size: 11px;
   font-weight: bold;
@@ -228,10 +246,12 @@ body {
   cursor: pointer;
   opacity: 0.5;
   transition: 0.5s all ease;
+  color: black;
 }
 
 .movie-item-buttons i:hover {
   opacity: 1;
+  color: black;
 }
 
 .arrow {
@@ -289,10 +309,6 @@ body {
     display: none;
   }
 }
-.featured-content {
-  height: 50vh;
-}
-
 .featured-desc {
   overflow: hidden;
   display: -webkit-box;
