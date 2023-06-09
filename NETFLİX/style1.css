@@ -8,7 +8,12 @@ body {
   font-family: "Electrolize", sans-serif;
   background-color: black;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: white;
 }
 .container {
@@ -89,29 +94,11 @@ h1,h2,h3,h4,h5,h6{
   right: 1px;
   transition: 0.5s ease all;
 }
-.sidebar {
-  background-color: black;
-  color: white;
-  height: 100%;
-  width: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 60px;
-  row-gap: 40px;
-  position: fixed;
-  top: 0;
-}
-.sidebar i {
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-}
 
 .content-weapper {
   margin-left: 100px;
 }
-.featured-body{
+.featured-body {
   height: 100%;
   position: absolute;
   z-index: 1;
@@ -120,14 +107,13 @@ h1,h2,h3,h4,h5,h6{
   flex-direction: column;
   justify-content: end;
   padding: 30px 0 0 80px;
-
 }
 .featured-content {
- width: 100vh;
- height: 100vh;
- display: inline;
+  width: 100vh;
+  height: 100vh;
+  display: inline;
 }
-.featured-title{
+.featured-title {
   width: 100%;
   height: 100vh;
   object-fit: cover;
@@ -276,15 +262,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar.active {
   background-color: white;
-  color: black;
-}
-
-.sidebar.active {
-  background-color: white;
-  color: black;
-}
-
-.sidebar i.active {
   color: black;
 }
 
