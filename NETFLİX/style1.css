@@ -94,10 +94,6 @@ h6 {
   right: 1px;
   transition: 0.5s ease all;
 }
-
-.content-weapper {
-  margin-left: 100px;
-}
 .featured-body {
   height: 100%;
   position: absolute;
@@ -109,15 +105,23 @@ h6 {
   padding: 30px 0 0 80px;
 }
 .featured-content {
-  width: 100vh;
-  height: 100vh;
+  /* width: 100vh; */
+  /* height: 100vh; */
   display: inline;
+}
+.img-container{
+ /* Set rules to fill background */
+ min-height: 100%;
+ min-width: 1024px;
+ 
+ /* Set up proportionate scaling */
+ width: 100%;
+ /* height: auto; */
 }
 .featured-title {
   width: 100%;
-  height: 30vh;
+  height: 100vh;
   object-fit: cover;
-  height: auto;
 }
 .featured-desc {
   width: 600px;
@@ -150,7 +154,10 @@ h6 {
   background-color: rgb(145, 142, 142, 0.5);
   color: white;
 }
-
+.movie-title{
+  text-align: start;
+  width: 95%;
+}
 .movie-list-filter {
   margin: 20px 0 20px 50px;
   padding: 20px;
@@ -164,7 +171,10 @@ h6 {
 }
 
 .movie-list-container {
-  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
 
 .movie-list {
@@ -295,3 +305,6 @@ h6 {
   max-width: 600px;
   padding: 0;
 }
+
+
+/* carousel */
