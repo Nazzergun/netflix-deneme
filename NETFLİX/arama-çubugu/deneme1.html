@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Büyüteç ile Arama Menüsü</title>
+    <style>
+      .search-container {
+        position: relative;
+        display: inline-block;
+      }
+      .search-container input[type="text"] {
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      .search-container .search-icon {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Büyüteç ile Arama Menüsü</h1>
+    <div class="search-container">
+      <input
+        type="text"
+        id="search"
+        name="search"
+        placeholder="Aranacak kelime"
+      />
+      <img class="search-icon" src="search-icon.png" alt="" />
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+  </body>
+</html>
