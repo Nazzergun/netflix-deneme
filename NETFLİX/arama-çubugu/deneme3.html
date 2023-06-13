@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Film Arama Menüsü</title>
+  </head>
+  <body>
+    <h1>Film Arama Menüsü</h1>
+    <form action="#" method="get">
+      <label for="filmAdi">Film Adı:</label>
+      <input
+        type="text"
+        id="filmAdi"
+        name="filmAdi"
+        placeholder="Film adını girin"
+      />
+      <br />
+      <label for="yil">Yıl:</label>
+      <input
+        type="number"
+        id="yil"
+        name="yil"
+        placeholder="Film yılını girin"
+      />
+      <br />
+      <label for="kategori">Kategori:</label>
+      <select id="kategori" name="kategori">
+        <option value="">Tüm Kategoriler</option>
+        <option value="aksiyon">Aksiyon</option>
+        <option value="komedi">Komedi</option>
+        <option value="drama">Drama</option>
+        <!-- Diğer kategori seçenekleri -->
+      </select>
+      <br />
+      <input type="submit" value="Ara" />
+    </form>
+  </body>
+</html>
