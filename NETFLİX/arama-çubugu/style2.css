@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px 7px;
+}
+
+ul li:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+section#search-menu {
+  display: flex;
+  width: 700px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+section#search-menu > .menu > span {
+  display: inline-block;
+  padding: 10px;
+}
+
+section#search-menu > .menu > input {
+  height: 30px;
+  padding: 10px;
+}
+
+section#search-menu > .menu {
+  background-color: #ddd;
+}
+
+section#search-menu > .content {
+  background-color: #eee;
+  padding: 20px;
+}
